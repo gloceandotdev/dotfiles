@@ -16,7 +16,7 @@ Here’s an overview of my current setup:
 - **Prompt**: [starship](https://starship.rs/)
 - **Resource Monitor**: [btop](https://github.com/aristocratos/btop)
 
-After using Linux for the past few years, I was surprised by how limited macOS felt out of the box, especially when it came to window management. This setup aims to address those shortcomings, by creating an environment similar to Sway or Hyprland. If you're coming from another tiling window manager, you'll feel right at home with these dotfiles.
+These dotfiles aim to recreate a tiling WM workflow on macOS, closest in spirit to dynamic tilers on Linux like Awesome and xmonad.
 
 ## Details
 
@@ -71,13 +71,15 @@ On top of that, pressing capslock normally will register it as the `esc` key, wh
 
 Below is an overview of the most important keyboard shortcuts.
 
-- `capslock + h/j/k/l` - Move focus left/down/up/right
-- `shift + capslock + h/j/k/l` - Move window left/down/up/right
-- `capslock + 1, 2, 3, ...` - Focus space 1, 2, 3, ...
-- `shift + capslock + 1, 2, 3, ...` - Move window to space 1, 2, 3, ... and focus it
-- `capslock + q/w` - Focus monitor 1/2
-- `shift + capslock + q/w` - Move window to monitor 1/2 and focus it
-- `capslock + u/i/o/p` - Resize windows left/down/up/right
+| Shortcut | Action |
+|---|---|
+| `capslock + h` / `capslock + j` / `capslock + k` / `capslock + l` | Move focus left / down / up / right |
+| `shift + capslock + h` / `shift + capslock + j` / `shift + capslock + k` / `shift + capslock + l` | Move window left / down / up / right |
+| `capslock + 1, 2, 3, ...` | Focus space 1, 2, 3, ... |
+| `shift + capslock + 1, 2, 3, ...` | Move window to space 1, 2, 3, ... and focus it |
+| `capslock + q` / `capslock + w` | Focus monitor 1 / 2 |
+| `shift + capslock + q` / `shift + capslock + w` | Move window to monitor 1 / 2 and focus it |
+| `capslock + u` / `capslock + i` / `capslock + o` / `capslock + p` | Resize windows left / down / up / right |
 
 For a complete list, please check out the skhd config file.
 
