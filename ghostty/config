@@ -1,6 +1,6 @@
 theme = light:Rose Pine Dawn,dark:Rose Pine
 
-background-opacity = 1.00
+background-opacity = 0.95
 background-blur = true
 
 window-padding-x = 10
