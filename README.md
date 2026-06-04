@@ -1,6 +1,6 @@
 # Welcome to my home!
 
-<img src="https://github.com/gloceansh/dotfiles/blob/main/assets/desktop.png?raw=true" alt="Desktop" align="right" width="400px">
+<img src="https://github.com/gloceansh/dotfiles/blob/main/assets/desktop.png?raw=true" alt="Desktop" align="right" width="340px">
 
 This is my personal collection of dotfiles for my macOS setup, which is focused on a minimal, elegant, keyboard-driven workflow.
 
