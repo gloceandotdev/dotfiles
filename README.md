@@ -1,17 +1,8 @@
 # Welcome to my home!
 
-This is my personal collection of dotfiles for my macOS setup, which is focused on a minimal, elegant, keyboard-driven workflow.
+<img src="assets/preview.png" alt="Desktop" align="right" width="420px">
 
-<table>
-  <tr>
-    <td><img src="assets/screenshots/dark-tiled.png"/></td>
-    <td><img src="assets/screenshots/light-tiled.png"/></td>
-  </tr>
-  <tr>
-    <td><img src="assets/screenshots/dark-desktop.png"/></td>
-    <td><img src="assets/screenshots/light-desktop.png"/></td>
-  </tr>
-</table>
+This is my personal collection of dotfiles for my macOS setup, which is focused on a minimal, elegant, keyboard-driven workflow.
 
 Here’s an overview of my current setup:
 

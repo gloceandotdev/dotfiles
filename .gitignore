@@ -9,9 +9,6 @@
 
 !assets/
 !assets/*
-!assets/screenshots/
-!assets/screenshots/*
-assets/**/.DS_Store
 assets/.DS_Store
 
 !btop/
