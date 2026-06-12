@@ -1,28 +1,34 @@
 # Welcome to my home!
 
-<img src="https://github.com/gloceansh/dotfiles/blob/main/assets/desktop.png?raw=true" alt="Desktop" align="right" width="340px">
-
 This is my personal collection of dotfiles for my macOS setup, which is focused on a minimal, elegant, keyboard-driven workflow.
+
+<table>
+  <tr>
+    <td><img src="assets/screenshots/dark-tiled.png"/></td>
+    <td><img src="assets/screenshots/light-tiled.png"/></td>
+  </tr>
+  <tr>
+    <td><img src="assets/screenshots/dark-desktop.png"/></td>
+    <td><img src="assets/screenshots/light-desktop.png"/></td>
+  </tr>
+</table>
 
 Here’s an overview of my current setup:
 
 - **Operating System**: [macOS Tahoe](https://www.apple.com/os/macos/)
-- **Window Manager**: [yabai](https://github.com/koekeishiya/yabai)
+- **Window Manager**: [yabai](https://github.com/asmvik/yabai)
 - **App Borders**: [JankyBorders](https://github.com/FelixKratz/JankyBorders)
-- **Hotkeys**: [skhd](https://github.com/koekeishiya/skhd)
+- **Hotkeys**: [skhd](https://github.com/asmvik/skhd)
 - **Status Bar**: [Sketchybar](https://github.com/FelixKratz/SketchyBar)
 - **Terminal**: [ghostty](https://github.com/mitchellh/ghostty)
 - **Shell**: [fish](https://fishshell.com/)
 - **Prompt**: [starship](https://starship.rs/)
 - **Resource Monitor**: [btop](https://github.com/aristocratos/btop)
+- **Colot Scheme**: [Rosé Pine](https://rosepinetheme.com/)
 
 These dotfiles aim to recreate a tiling WM workflow on macOS, closest in spirit to dynamic tilers on Linux like Awesome and xmonad.
 
 ## Details
-
-### Color Scheme
-
-The color scheme is [Rosé Pine](https://rosepinetheme.com/) for dark mode and Rosé Pine Dawn for light mode. The setup automatically follows the macOS system appearance, switching themes triggers `switch-theme.sh` via [dark-notify](https://github.com/cormacrelf/dark-notify), which updates Sketchybar, Starship, Fish, and JankyBorders. The rest changes the theme by itself.
 
 ### Sketchybar Weather
 
@@ -45,6 +51,7 @@ Additionally, my sketchybar config uses [sketchybar-app-font](https://github.com
 ### Keyboard Shortcuts
 
 I highly suggest binding `capslock` to `control + option + command` using [Karabiner-Elements](https://karabiner-elements.pqrs.org/), since that combination of keys is used as the modifier key for my yabai/skhd config. After installing, go to Complex Modifications -> Add Your Own rule -> And paste the following:
+
 ```
 {
     "description": "Caps lock key -> hyper key without shift (⌘⌥⌃), Escape when tapped",
@@ -67,7 +74,7 @@ I highly suggest binding `capslock` to `control + option + command` using [Karab
 }
 ```
 
-On top of that, pressing capslock normally will register it as the `esc` key, which is useful for vim users.
+Additionally, pressing `capslock` normally will register it as the `esc` key, which is useful for vim users.
 
 Below is an overview of the most important keyboard shortcuts.
 
