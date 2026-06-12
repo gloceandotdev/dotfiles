@@ -1,6 +1,6 @@
 # Welcome to my home!
 
-<img src="assets/preview.png" alt="Desktop" align="right" width="350px">
+<img src="assets/preview.png" alt="Desktop" align="right" width="370px">
 
 This is my personal collection of dotfiles for my macOS setup, which is focused on a minimal, elegant, keyboard-driven workflow.
 
