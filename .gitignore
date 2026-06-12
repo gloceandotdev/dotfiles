@@ -9,7 +9,10 @@
 
 !assets/
 !assets/*
+!assets/screenshots/
+!assets/screenshots/*
 assets/.DS_Store
+assets/screenshots/.DS_Store
 
 !btop/
 !btop/btop.conf
