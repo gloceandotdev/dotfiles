@@ -35,6 +35,11 @@ brew install \
 echo "--- Casks ---"
 brew install --cask ghostty raycast
 
+# ── Window corners ────────────────────────────────────────────────────────────
+echo "--- Window corners ---"
+# macOS 27 lets you override the window corner radius (0 resets to the default of 20)
+defaults write -g NSConvolutionOverride1 -float 10
+
 # ── Fish as default shell ─────────────────────────────────────────────────────
 echo "--- Fish shell ---"
 FISH_PATH="$(brew --prefix)/bin/fish"
@@ -52,8 +57,6 @@ fish -c "fisher update"
 # ── Script permissions ────────────────────────────────────────────────────────
 echo "--- Script permissions ---"
 chmod +x "$HOME/.config/switch-theme.sh"
-chmod +x "$HOME/.config/fish/set-dark-theme.fish"
-chmod +x "$HOME/.config/fish/set-light-theme.fish"
 
 # ── Yabai scripting addition sudoers entry ────────────────────────────────────
 echo "--- Yabai scripting addition ---"
@@ -95,7 +98,7 @@ launchctl load "$PLIST"
 
 # ─────────────────────────────────────────────────────────────────────────────
 echo ""
-echo "Done! Restart for the changes to take effect, then run:"
+echo "Done! Log out and back in for the changes (window corners included) to take effect, then run:"
 echo ""
 echo "  yabai --start-service"
 echo "  brew services start sketchybar"

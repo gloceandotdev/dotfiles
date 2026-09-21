@@ -10,7 +10,7 @@ This is my personal collection of dotfiles for my macOS setup, which is focused 
 
 Here’s an overview of my current setup:
 
-- **Operating System**: [macOS Tahoe](https://www.apple.com/os/macos/)
+- **Operating System**: [macOS 27](https://www.apple.com/os/macos/)
 - **Window Manager**: [yabai](https://github.com/asmvik/yabai)
 - **App Borders**: [JankyBorders](https://github.com/FelixKratz/JankyBorders)
 - **Hotkeys**: [skhd](https://github.com/asmvik/skhd)
