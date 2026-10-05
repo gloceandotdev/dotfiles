@@ -21,3 +21,5 @@ starship init fish | source
 
 # Created by `pipx` on 2026-03-23 17:09:55
 set PATH $PATH /Users/glocean/.local/bin
+
+fish_config theme choose Meadow

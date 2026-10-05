@@ -19,7 +19,7 @@ Here’s an overview of my current setup:
 - **Shell**: [fish](https://fishshell.com/)
 - **Prompt**: [starship](https://starship.rs/)
 - **Resource Monitor**: [btop](https://github.com/aristocratos/btop)
-- **Colot Scheme**: [Rosé Pine](https://rosepinetheme.com/)
+- **Color Scheme**: [Meadow](https://glocean.dev/meadow/), Meadow and Meadow Light
 
 These dotfiles aim to recreate a tiling WM workflow on macOS, closest in spirit to dynamic tilers on Linux like Awesome and xmonad.
 

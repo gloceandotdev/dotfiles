@@ -33,22 +33,22 @@ sketchybar --default \
 # Date and time
 sketchybar --add item date right \
            --set date icon=􀧞  \
-                      icon.color="$COLOR_IRIS" \
-                      label.color="$COLOR_IRIS" \
+                      icon.color="$COLOR_LAVENDER" \
+                      label.color="$COLOR_LAVENDER" \
                       update_freq=1 \
                       script="$PLUGIN_DIR/date.sh"
 
 # Volume level
 sketchybar --add item volume right \
-           --set volume icon.color="$COLOR_PINE" \
-                        label.color="$COLOR_PINE" \
+           --set volume icon.color="$COLOR_CORNFLOWER" \
+                        label.color="$COLOR_CORNFLOWER" \
                         script="$PLUGIN_DIR/volume.sh" \
            --subscribe volume volume_change
 
 # Battery level
 sketchybar --add item battery right \
-           --set battery icon.color="$COLOR_GOLD" \
-                         label.color="$COLOR_GOLD" \
+           --set battery icon.color="$COLOR_MARIGOLD" \
+                         label.color="$COLOR_MARIGOLD" \
                          update_freq=10 \
                          script="$PLUGIN_DIR/battery.sh" \
            --subscribe battery system_woke power_source_change
@@ -58,7 +58,7 @@ sketchybar --add item weather right \
            --set weather script="$PLUGIN_DIR/weather.sh" \
                          update_freq=600 \
                          icon.drawing=off \
-                         label.color="$COLOR_FOAM" \
+                         label.color="$COLOR_DEW" \
                          label.padding_left=10 \
                          label.padding_right=10 \
            --subscribe weather system_woke
@@ -75,8 +75,8 @@ for sid in "${SPACE_SIDS[@]}"; do
                      label.font="sketchybar-app-font:Regular:18.0" \
                      label.padding_right=20 \
                      label.y_offset=-2 \
-                     label.color="$COLOR_ROSE" \
-                     icon.color="$COLOR_ROSE" \
+                     label.color="$COLOR_SAGE" \
+                     icon.color="$COLOR_SAGE" \
                      click_script="yabai -m space --focus $sid" \
                      script="$PLUGIN_DIR/space.sh"
 done
@@ -89,8 +89,8 @@ sketchybar --add item space_watcher center \
 # Front app
 sketchybar --add item front_app left \
            --set front_app icon.font="sketchybar-app-font:Regular:18.0" \
-                           icon.color="$COLOR_LOVE" \
-                           label.color="$COLOR_LOVE" \
+                           icon.color="$COLOR_POPPY" \
+                           label.color="$COLOR_POPPY" \
                            script="$PLUGIN_DIR/front_app.sh" \
            --subscribe front_app front_app_switched
 

@@ -20,13 +20,17 @@ assets/screenshots/.DS_Store
 !fish/
 !fish/config.fish
 !fish/fish_plugins
+!fish/themes/
+!fish/themes/Meadow.theme
 
 !ghostty/
 !ghostty/config
+!ghostty/themes/
+!ghostty/themes/*
 
 !sketchybar/
 !sketchybar/colors-dark.sh
-!sketchybar/colors-dawn.sh
+!sketchybar/colors-light.sh
 !sketchybar/sketchybarrc
 !sketchybar/plugins/
 !sketchybar/plugins/space.sh
