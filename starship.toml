@@ -35,13 +35,13 @@ dew = '#84c7d5'
 lavender = '#c1b0e7'
 
 [palettes.meadow-light]
-surface = '#e6e0ed'
-poppy = '#9e4c4d'
-marigold = '#ac5701'
-sage = '#536e59'
-cornflower = '#4b6697'
-dew = '#2d717d'
-lavender = '#6d5b90'
+surface = '#efdee4'
+poppy = '#b9454c'
+marigold = '#b76316'
+sage = '#507357'
+cornflower = '#4a68a0'
+dew = '#217584'
+lavender = '#715c97'
 
 [directory]
 format = "[](fg:surface)[ $path ]($style)[](fg:surface) "

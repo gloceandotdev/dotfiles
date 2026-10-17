@@ -1,40 +1,40 @@
 # name: 'Meadow'
 
 [light]
-# preferred_background: f1ecf7
-fish_color_normal 352c3f
-fish_color_command 4b6697
-fish_color_keyword 6d5b90
-fish_color_quote 536e59
-fish_color_redirection 5c5169
-fish_color_end 5c5169
-fish_color_error 9e4c4d
-fish_color_param 352c3f
-fish_color_option 518792
-fish_color_comment 81778d --italics
-fish_color_selection --background=ddd6ef
-fish_color_operator 5c5169
-fish_color_escape c0743c
-fish_color_autosuggestion 81778d
+# preferred_background: f7e8ee
+fish_color_normal 382a3d
+fish_color_command 4a68a0
+fish_color_keyword 715c97
+fish_color_quote 507357
+fish_color_redirection 5f4e63
+fish_color_end 5f4e63
+fish_color_error b9454c
+fish_color_param 382a3d
+fish_color_option 4c8b98
+fish_color_comment 857284 --italics
+fish_color_selection --background=e0d7f4
+fish_color_operator 5f4e63
+fish_color_escape c57b3d
+fish_color_autosuggestion 857284
 fish_color_valid_path --underline
-fish_color_cwd 4b6697
-fish_color_cwd_root 9e4c4d
-fish_color_user 352c3f
-fish_color_host 2d717d
-fish_color_host_remote ac5701
-fish_color_status 9e4c4d
+fish_color_cwd 4a68a0
+fish_color_cwd_root b9454c
+fish_color_user 382a3d
+fish_color_host 217584
+fish_color_host_remote b76316
+fish_color_status b9454c
 fish_color_cancel --reverse
-fish_color_search_match --background=eed5c5
-fish_color_history_current 6d5b90
-fish_pager_color_progress 81778d
+fish_color_search_match --background=f6dac2
+fish_color_history_current 715c97
+fish_pager_color_progress 857284
 fish_pager_color_background
-fish_pager_color_prefix 6d5b90
-fish_pager_color_completion 352c3f
-fish_pager_color_description 81778d
-fish_pager_color_selected_background --background=d9d2e2
-fish_pager_color_selected_prefix 6d5b90
-fish_pager_color_selected_completion 352c3f
-fish_pager_color_selected_description 5c5169
+fish_pager_color_prefix 715c97
+fish_pager_color_completion 382a3d
+fish_pager_color_description 857284
+fish_pager_color_selected_background --background=e1ced7
+fish_pager_color_selected_prefix 715c97
+fish_pager_color_selected_completion 382a3d
+fish_pager_color_selected_description 5f4e63
 
 [dark]
 # preferred_background: 1f1a24

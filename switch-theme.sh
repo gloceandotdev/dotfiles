@@ -40,8 +40,8 @@ case "$MODE" in
 
 
         # JankyBorders
-        sed -i '' 's/^borders active_color=.*/borders active_color=0xff6d5b90 inactive_color=0xffd9d2e2 width=5.0 hidpi=on/' "$CONFIG/yabai/yabairc"
+        sed -i '' 's/^borders active_color=.*/borders active_color=0xff715c97 inactive_color=0xffe1ced7 width=5.0 hidpi=on/' "$CONFIG/yabai/yabairc"
         pkill -x borders 2>/dev/null; sleep 0.2
-        nohup /opt/homebrew/bin/borders active_color=0xff6d5b90 inactive_color=0xffd9d2e2 width=5.0 hidpi=on >/dev/null 2>&1 &
+        nohup /opt/homebrew/bin/borders active_color=0xff715c97 inactive_color=0xffe1ced7 width=5.0 hidpi=on >/dev/null 2>&1 &
         ;;
 esac
