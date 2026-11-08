@@ -50,6 +50,7 @@ yabai -m rule --add app="^System Settings$" manage=off
 yabai -m rule --add app="^Raycast$" manage=off
 yabai -m rule --add app="^java$" manage=off
 yabai -m rule --add app="^Claude$" manage=off
+yabai -m rule --add app="^love$" manage=off
 
 # Jankyborders
 borders active_color=0xffc1b0e7 inactive_color=0xff3a3245 width=5.0 hidpi=on
