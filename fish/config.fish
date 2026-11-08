@@ -22,4 +22,10 @@ starship init fish | source
 # Created by `pipx` on 2026-03-23 17:09:55
 set PATH $PATH /Users/glocean/.local/bin
 
-fish_config theme choose Meadow
+if set -q INSIDE_EMACS
+    # vterm doesn't report its background, so Emacs passes the variant
+    set -q MEADOW_VARIANT; or set -l MEADOW_VARIANT dark
+    fish_config theme choose Meadow --color-theme=$MEADOW_VARIANT
+else
+    fish_config theme choose Meadow
+end
